@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Masjid Ar-Raudhah</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .top-bar {
+      background: #f5f5f5;
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 2rem;
+      font-size: 0.9rem;
+    }
+    .top-bar .contact-info, .top-bar .social {
+      display: flex;
+      align-items: center;
+    }
+    .top-bar .contact-info span, .top-bar .social a {
+      margin-right: 1rem;
+      color: #333;
+      text-decoration: none;
+    }
+    .banner {
+      background-image: url('images/banner.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 6rem 1rem;
+      position: relative;
+    }
+    .banner::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .banner .content {
+      position: relative;
+      z-index: 1;
+    }
+    .banner h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .banner p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .btn-donate {
+      background: #ffc107;
+      color: #333;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="contact-info">
+      <span>(+62) 895 2889 2782</span>
+      <span>masjidarraudhah752@outlook.id</span>
+    </div>
+    <div class="social">
+      <a href="#" aria-label="Facebook">&#x1F426;</a>
+      <a href="#" aria-label="Twitter">&#x1F426;</a>
+      <a href="#" aria-label="Instagram">&#x1F426;</a>
+    </div>
+  </div>
+
+  <header>
+    <h1>Website Masjid Ogi</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jadwal.html">Jadwal Sholat</a></li>
+        <li><a href="informasi.html">Kegiatan</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+        <li><a href="#" class="btn-donate">Donasi</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="content">
+      <h1>Masjid Ar-Raudhah</h1>
+      <p>Selamat datang di wesite resmi Masjid Ar-Raudhah.</p>
+      <a href="#" class="btn-donate">Selengkapnya</a>
+    </div>
+  </section>
+
+  <main>
+    <section class="tentang">
+      <h2>Tentang Masjid Ar-Raudhah</h2>
+      <p>Masjid Ar-Raudhah adalah sarana beribadah, dakwah, dan pusat sosialisasi di Kecamatan Kedungwaringin, tepatnya di perumahan Taman Permata Indah.</p>
+    </section>
+  </main>
+
+<!-- Tambahkan di sini sebelum footer -->
+<section class="projects section-padding" id="section_4" style="padding: 60px 0; background-color: #f8f9fa;">
+  <div class="container">
+    <div class="row justify-content-center mb-4">
+      <div class="col-lg-8 col-md-10 col-12 text-center">
+        <div class="section-title-wrap d-flex justify-content-center align-items-center mb-3">
+     
+          <h2 class="ms-3 mb-0" style="color: #333;">Lokasi</h2>
+        </div>
+        <p class="text-muted">Berikut adalah lokasi Masjid Ar-Raudhah yang dapat dilihat langsung melalui Google Maps.</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10 col-12">
+        <div class="projects-thumb text-center">
+          <a href="https://maps.app.goo.gl/YTmTK1Lsv56EJs3W9" target="_blank">
+            <img src="images/respon.jpg" class="img-fluid w-100 rounded mb-3" alt="Lokasi">
+          </a>
+          <div class="projects-info mt-2">
+            <small class="projects-tag d-block mb-2 text-muted">
+              P6VP+GC3, Perumahan Taman Permata Indah, Waringinjaya, Kec. Kedungwaringin, Kabupaten Bekasi, Jawa Barat 17540
+            </small>
+            <h3 class="projects-title" style="font-size: 1rem;">Silakan tap gambar di atas untuk melihat lokasinya secara real-time di Google Maps</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+  <footer>
+    <p>&copy; 2025 Masjid Ar-Raudhah</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galeri</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .galeri {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      padding: 20px;
+    }
+    .galeri img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Masjid Ar-Raudhah</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="jadwal.html">Jadwal Shalat</a></li>
+        <li><a href="informasi.html">Informasi</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Galeri Kegiatan</h2>
+    <div class="galeri">
+      <img src="images/kegiatan1.jpg" alt="Kegiatan 1">
+      <img src="images/kegiatan2.jpg" alt="Kegiatan 2">
+      <img src="images/masjid.jpg" alt="Masjid">
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Masjid Ar-Raudhah</p>
+  </footer>
+</body>
+</html>
